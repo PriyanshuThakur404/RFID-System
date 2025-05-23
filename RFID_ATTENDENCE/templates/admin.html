@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - RFID System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #2c3e50;
+            --success-color: #2ecc71;
+            --danger-color: #e74c3c;
+            --warning-color: #f39c12;
+        }
+
+        body {
+            background-color: #f5f6fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .dashboard-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-card i {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .stat-card h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-card p {
+            color: #666;
+            margin-bottom: 0;
+        }
+
+        .attendance-table {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+        .search-box i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #666;
+        }
+
+        .search-box input {
+            padding-left: 40px;
+            border-radius: 20px;
+            border: 1px solid #dee2e6;
+        }
+
+        .btn-export {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-export:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        .loading-spinner {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .no-records {
+            display: none;
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+
+        .status-indicator {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .status-present {
+            background-color: var(--success-color);
+        }
+
+        .status-absent {
+            background-color: var(--danger-color);
+        }
+
+        .status-late {
+            background-color: var(--warning-color);
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .card {
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .form-control:focus {
+            border-color: #80bdff;
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        }
+
+        .error-toast, .success-toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 12px 24px;
+            border-radius: 4px;
+            color: white;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 1000;
+        }
+        
+        .error-toast {
+            background-color: #dc3545;
+        }
+        
+        .success-toast {
+            background-color: #28a745;
+        }
+        
+        .error-toast.show, .success-toast.show {
+            opacity: 1;
+        }
+        
+        .status-badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.875rem;
+            text-transform: capitalize;
+        }
+        
+        .status-badge.present {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .status-badge.absent {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+    <script>
+        // Initialize JWT token
+        const JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVhdmZkcnRvcW9ub3dnZHJwbnN5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDUxNTMxMzcsImV4cCI6MjA2MDcyOTEzN30.z0V2NVjijcRULMVLXOCloaCD11QRXl2WvX_GuNfb3M0";
+
+        // Function to make API calls with JWT token
+        async function fetchAPI(endpoint, options = {}) {
+            const defaultOptions = {
+                headers: {
+                    'Authorization': `Bearer ${JWT_TOKEN}`,
+                    'Content-Type': 'application/json'
+                }
+            };
+            const response = await fetch(endpoint, { ...defaultOptions, ...options });
+            if (!response.ok) {
+                throw new Error(`API error: ${response.status}`);
+            }
+            return response.json();
+        }
+
+        // Function to update statistics
+        async function updateStats() {
+            try {
+                const response = await fetchAPI('/api/get_stats');
+                document.getElementById('totalRegistered').textContent = response.totalRegistered;
+                document.getElementById('totalAttended').textContent = response.totalAttended;
+                document.getElementById('todayAttendance').textContent = response.todayAttendance;
+                document.getElementById('attendanceRate').textContent = `${response.attendanceRate}%`;
+            } catch (error) {
+                console.error('Error updating stats:', error);
+            }
+        }
+
+        // Function to update student list
+        async function updateStudentDetails() {
+            try {
+                const response = await fetchAPI('/api/students');
+                const studentTable = document.getElementById('studentTable');
+                const tbody = studentTable.querySelector('tbody');
+                tbody.innerHTML = '';
+
+                if (!response || response.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="4" class="text-center">No students registered yet</td></tr>';
+                    return;
+                }
+
+                response.forEach(student => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${student.uid}</td>
+                        <td>${student.name}</td>
+                        <td>${student.last_attendance ? new Date(student.last_attendance).toLocaleString() : 'Never'}</td>
+                        <td>${student.total_attendance || 0}</td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Error updating student details:', error);
+                alert('Failed to load student data. Please try again.');
+            }
+        }
+
+        // Function to handle manual attendance
+        async function handleManualAttendance(event) {
+            event.preventDefault();
+            const form = event.target;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+
+            try {
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Registering...';
+
+                const formData = new FormData(form);
+                const response = await fetchAPI('/api/attendance', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.success) {
+                    alert('Attendance registered successfully!');
+                    form.reset();
+                    updateStudentDetails();
+                } else {
+                    throw new Error(response.error || 'Failed to register attendance');
+                }
+            } catch (error) {
+                console.error('Error registering attendance:', error);
+                alert(error.message);
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            }
+        }
+
+        // Function to check attendance history
+        async function checkAttendanceHistory() {
+            const studentSelect = document.getElementById('studentSelect');
+            const dateInput = document.getElementById('dateInput');
+            const historyTable = document.getElementById('historyTable');
+            const tbody = historyTable.querySelector('tbody');
+            tbody.innerHTML = '';
+
+            if (!studentSelect.value || !dateInput.value) {
+                alert('Please select both student and date');
+                return;
+            }
+
+            try {
+                const response = await fetchAPI(`/api/attendance?uid=${studentSelect.value}&date=${dateInput.value}`);
+                
+                if (response.records.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="4" class="text-center">No attendance records found</td></tr>';
+                    return;
+                }
+
+                response.records.forEach(record => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${record.date}</td>
+                        <td>${record.time}</td>
+                        <td>${record.type}</td>
+                        <td>${new Date(record.created_at).toLocaleString()}</td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Error checking attendance history:', error);
+                alert('Failed to fetch attendance history');
+            }
+        }
+
+        // Function to load students for manual attendance
+        async function loadStudents() {
+            try {
+                const response = await fetchAPI('/api/students');
+                const studentSelect = document.getElementById('studentSelect');
+                studentSelect.innerHTML = '<option value="">Select Student</option>';
+
+                if (!response || response.length === 0) {
+                    return;
+                }
+
+                response.forEach(student => {
+                    const option = document.createElement('option');
+                    option.value = student.uid;
+                    option.textContent = `${student.name} (${student.uid})`;
+                    studentSelect.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Error loading students:', error);
+                alert('Failed to load students. Please try again.');
+            }
+        }
+
+        // Function to register a new student
+        async function registerStudent(event) {
+            event.preventDefault();
+            const form = event.target;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+
+            try {
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Registering...';
+
+                const formData = new FormData(form);
+                const response = await fetchAPI('/api/register_user', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.success) {
+                    alert('Student registered successfully!');
+                    form.reset();
+                    loadStudents();
+                    updateStudentDetails();
+                } else {
+                    throw new Error(response.error || 'Failed to register student');
+                }
+            } catch (error) {
+                console.error('Error registering student:', error);
+                alert(error.message);
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalText;
+            }
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', () => {
+            // Add event listeners
+            document.getElementById('manualAttendanceForm').addEventListener('submit', handleManualAttendance);
+            document.getElementById('studentSelect').addEventListener('change', checkAttendanceHistory);
+            document.getElementById('dateInput').addEventListener('change', checkAttendanceHistory);
+            document.getElementById('registerStudentForm').addEventListener('submit', registerStudent);
+            
+            // Set default date to today
+            document.getElementById('dateInput').valueAsDate = new Date();
+            
+            // Initial data load
+            loadStudents();
+            updateStats();
+            updateStudentDetails();
+            
+            // Set up periodic updates
+            setInterval(updateStats, 30000);
+            setInterval(updateStudentDetails, 30000);
+        });
+
+        // Show error message in a toast
+        function showError(message) {
+            const toast = document.createElement('div');
+            toast.className = 'error-toast';
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.classList.add('show');
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    setTimeout(() => toast.remove(), 300);
+                }, 3000);
+            }, 100);
+        }
+
+        // Show success message in a toast
+        function showSuccess(message) {
+            const toast = document.createElement('div');
+            toast.className = 'success-toast';
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.classList.add('show');
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    setTimeout(() => toast.remove(), 300);
+                }, 3000);
+            }, 100);
+        }
+
+        // Search functionality
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const searchText = e.target.value.toLowerCase();
+            const rows = document.querySelectorAll('#attendanceTableBody tr');
+
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(searchText) ? '' : 'none';
+            });
+        });
+
+        // Student search functionality
+        document.getElementById('studentSearchInput').addEventListener('input', function(e) {
+            const searchText = e.target.value.toLowerCase();
+            const rows = document.querySelectorAll('#studentTableBody tr');
+
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(searchText) ? '' : 'none';
+            });
+        });
+
+        // Export functionality
+        document.getElementById('exportBtn').addEventListener('click', function() {
+            this.disabled = true;
+            this.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Exporting...';
+
+            fetch('/api/export_attendance')
+                .then(response => response.blob())
+                .then(blob => {
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'attendance_export.csv';
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                })
+                .catch(error => {
+                    console.error('Error exporting data:', error);
+                    alert('Error exporting data. Please try again.');
+                })
+                .finally(() => {
+                    this.disabled = false;
+                    this.innerHTML = '<i class="fas fa-download me-2"></i>Export Data';
+                });
+        });
+
+        // Export students functionality
+        document.getElementById('exportStudentsBtn').addEventListener('click', function() {
+            this.disabled = true;
+            this.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Exporting...';
+
+            supabase
+                .from('users')
+                .select(`
+                    *,
+                    attendance (
+                        count,
+                        created_at
+                    )
+                `)
+                .then(data => {
+                    if (!data || data.length === 0) {
+                        alert('No students registered in the system');
+                        return;
+                    }
+
+                    const csvData = [
+                        ['Name', 'UID', 'Total Attendance', 'Last Attendance', 'Status'],
+                        ...data.map(student => [
+                            student.name,
+                            student.uid,
+                            student.attendance?.length || 0,
+                            student.attendance?.[0]?.created_at || 'Never',
+                            student.status
+                        ])
+                    ];
+
+                    const csvContent = csvData.map(row => row.join(',')).join('\n');
+                    const blob = new Blob([csvContent], { type: 'text/csv' });
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'students_export.csv';
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                })
+                .catch(error => {
+                    console.error('Error exporting student data:', error);
+                    alert('Error exporting student data. Please try again.');
+                })
+                .finally(() => {
+                    this.disabled = false;
+                    this.innerHTML = '<i class="fas fa-download me-2"></i>Export Students';
+                });
+        });
+    </script>
+</head>
+<body>
+    <div class="container py-4">
+        <div class="dashboard-header text-center">
+            <h1><i class="fas fa-tachometer-alt me-2"></i>Admin Dashboard</h1>
+            <p class="mb-0">Real-time RFID Attendance Monitoring</p>
+        </div>
+
+        <div class="row">
+            <!-- Statistics Cards -->
+            <div class="col-md-3">
+                <div class="stat-card text-center">
+                    <i class="fas fa-users"></i>
+                    <h3 id="totalRegistered">0</h3>
+                    <p>Total Registered Users</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card text-center">
+                    <i class="fas fa-user-check"></i>
+                    <h3 id="totalAttended">0</h3>
+                    <p>Total Users Attended</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card text-center">
+                    <i class="fas fa-calendar-day"></i>
+                    <h3 id="todayAttendance">0</h3>
+                    <p>Today's Attendance</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card text-center">
+                    <i class="fas fa-chart-line"></i>
+                    <h3 id="attendanceRate">0%</h3>
+                    <p>Attendance Rate</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Section -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4><i class="fas fa-chart-bar me-2"></i>Daily Attendance</h4>
+                    <canvas id="dailyChart"></canvas>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4><i class="fas fa-chart-pie me-2"></i>Attendance Distribution</h4>
+                    <canvas id="distributionChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Student Details Section -->
+        <div class="attendance-table mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4><i class="fas fa-user-graduate me-2"></i>Registered Students</h4>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-primary" onclick="updateStudentDetails()">
+                        <i class="fas fa-sync-alt me-2"></i>Refresh
+                    </button>
+                    <button class="btn btn-export" id="exportStudentsBtn">
+                        <i class="fas fa-download me-2"></i>Export Students
+                    </button>
+                </div>
+            </div>
+
+            <div class="alert alert-info" role="alert" id="studentCount" style="display: none;">
+                <i class="fas fa-info-circle me-2"></i>
+                <span></span>
+            </div>
+
+            <div class="search-box mb-3">
+                <i class="fas fa-search"></i>
+                <input type="text" class="form-control" id="studentSearchInput" placeholder="Search students by name or UID...">
+            </div>
+
+            <div class="loading-spinner text-center p-4" id="studentLoadingSpinner">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Loading student details...</p>
+            </div>
+
+            <div class="alert alert-warning" id="noStudents" style="display: none;">
+                <div class="text-center">
+                    <i class="fas fa-exclamation-circle fa-3x mb-3"></i>
+                    <p class="mb-3">No students found</p>
+                    <button class="btn btn-primary" onclick="updateStudentDetails()">
+                        <i class="fas fa-sync-alt me-2"></i>Retry
+                    </button>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>UID</th>
+                            <th>Total Attendance</th>
+                            <th>Last Attendance</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Manual Attendance Section -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">Manual Attendance</h5>
+            </div>
+            <div class="card-body">
+                <form id="manualAttendanceForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label for="studentSelect">Select Student</label>
+                                <select class="form-control" id="studentSelect" required>
+                                    <option value="">Select a student</option>
+                                </select>
+                                <div class="invalid-feedback">Please select a student</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label for="attendanceDate">Date</label>
+                                <input type="date" class="form-control" id="attendanceDate" required>
+                                <div class="invalid-feedback">Please select a valid date</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label for="attendanceTime">Time</label>
+                                <input type="time" class="form-control" id="attendanceTime" required>
+                                <div class="invalid-feedback">Please select a valid time</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-3">
+                                <label>&nbsp;</label>
+                                <button type="submit" class="btn btn-primary btn-block w-100">
+                                    <i class="fas fa-check me-2"></i>Mark Attendance
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div id="attendanceStatus" class="mt-3" style="display: none;">
+                    <div class="alert" role="alert"></div>
+                </div>
+                <div id="attendanceHistory" class="mt-3" style="display: none;">
+                    <h6>Attendance History for Selected Date</h6>
+                    <div class="table-responsive">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Type</th>
+                                </tr>
+                            </thead>
+                            <tbody id="attendanceHistoryBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Attendance Table -->
+        <div class="attendance-table">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4><i class="fas fa-list me-2"></i>Recent Attendance Records</h4>
+                <div>
+                    <button class="btn btn-export" id="exportBtn">
+                        <i class="fas fa-download me-2"></i>Export Data
+                    </button>
+                </div>
+            </div>
+
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" class="form-control" id="searchInput" placeholder="Search by name or UID...">
+            </div>
+
+            <div class="loading-spinner" id="loadingSpinner">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Loading attendance records...</p>
+            </div>
+
+            <div class="no-records" id="noRecords">
+                <i class="fas fa-info-circle fa-3x mb-3"></i>
+                <p>No attendance records found</p>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Name</th>
+                            <th>UID</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody id="attendanceTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html> 

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFID Attendance System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #6B73FF;
+            --secondary-color: #000DFF;
+            --bg-light: #f8f9fa;
+            --text-light: #212529;
+            --card-bg-light: white;
+            --card-shadow-light: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --stats-text-light: #6c757d;
+        }
+
+        [data-theme="dark"] {
+            --bg-light: #1a1a1a;
+            --text-light: #ffffff;
+            --card-bg-light: #2d2d2d;
+            --card-shadow-light: 0 2px 4px rgba(255, 255, 255, 0.05);
+            --stats-text-light: #cccccc;
+        }
+
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-light);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar {
+            background: transparent;
+            padding: 1rem 0;
+            position: absolute;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .theme-switch {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            transition: transform 0.3s;
+        }
+
+        .theme-switch:hover {
+            transform: rotate(180deg);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 6rem 0 4rem;
+            margin-bottom: 3rem;
+            border-radius: 0 0 25px 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background: linear-gradient(to bottom right, transparent 49%, var(--bg-light) 50%);
+        }
+
+        .feature-card {
+            background: var(--card-bg-light);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: var(--card-shadow-light);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--text-light);
+            display: block;
+            border: 1px solid transparent;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(107, 115, 255, 0.2);
+            color: var(--text-light);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover .feature-icon {
+            transform: scale(1.1);
+        }
+
+        .stats-card {
+            background: var(--card-bg-light);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--card-shadow-light);
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .stats-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-3px);
+        }
+
+        .stats-number {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--text-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .stats-label {
+            color: var(--stats-text-light);
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(107, 115, 255, 0.3);
+        }
+
+        .btn-outline-light {
+            border: 2px solid white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-outline-light:hover {
+            background: white;
+            color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .floating-icon {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="navbar-brand text-white">
+                <i class="fas fa-id-card"></i> RFID System
+            </a>
+            <button class="theme-switch" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="hero text-center">
+        <div class="container">
+            <div class="floating-icon mb-4">
+                <i class="fas fa-id-card fa-3x"></i>
+            </div>
+            <h1 class="display-4 mb-4">
+                RFID Attendance System
+            </h1>
+            <p class="lead mb-4">
+                A modern solution for tracking attendance using RFID technology
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="/live" class="btn btn-primary">
+                    <i class="fas fa-tv"></i> View Live Feed
+                </a>
+                <a href="/register" class="btn btn-outline-light">
+                    <i class="fas fa-user-plus"></i> Register User
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="stats-card text-center">
+                    <div class="stats-number" id="totalUsers">-</div>
+                    <div class="stats-label">Total Registered Users</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stats-card text-center">
+                    <div class="stats-number" id="todayAttendance">-</div>
+                    <div class="stats-label">Today's Attendance</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stats-card text-center">
+                    <div class="stats-number" id="mostRecentAttendance">-</div>
+                    <div class="stats-label">Most Recent Attendance</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <a href="/live" class="feature-card text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3>Live Feed</h3>
+                    <p>Monitor real-time attendance records and RFID scans</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/register" class="feature-card text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>Register Users</h3>
+                    <p>Add new users to the system with their RFID cards</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/admin" class="feature-card text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Admin Dashboard</h3>
+                    <p>Manage users and view detailed attendance reports</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme switcher
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = themeToggle.querySelector('i');
+        
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        updateThemeIcon(savedTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+
+        function updateThemeIcon(theme) {
+            themeIcon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        }
+
+        function updateStats() {
+            fetch('/api/get_stats')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('totalUsers').textContent = data.totalRegistered;
+                    document.getElementById('todayAttendance').textContent = data.todayAttendance;
+                    const mostRecent = data.mostRecentAttendance;
+                    document.getElementById('mostRecentAttendance').textContent = `${mostRecent.name} on ${mostRecent.date} at ${mostRecent.time}`;
+                })
+                .catch(error => {
+                    console.error('Error fetching stats:', error);
+                });
+        }
+
+        // Update stats every 30 seconds
+        setInterval(updateStats, 30000);
+        // Initial update
+        updateStats();
+    </script>
+</body>
+</html> 

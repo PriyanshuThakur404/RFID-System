@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+    border: none;
+    border-radius: 10px;
+}
+
+/* Homepage Styles */
+.display-4 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.lead {
+    color: #7f8c8d;
+}
+
+/* About Page Styles */
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.list-group-item {
+    border: none;
+    padding: 1rem;
+}
+
+/* Admin Dashboard Styles */
+.nav-tabs .nav-link {
+    color: #6c757d;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd;
+    border-bottom: 3px solid #0d6efd;
+    background: none;
+}
+
+/* Register Page Styles */
+.form-label {
+    font-weight: 500;
+}
+
+/* Live Feed Styles */
+#scanStatus {
+    margin-bottom: 2rem;
+}
+
+.badge {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+} 
