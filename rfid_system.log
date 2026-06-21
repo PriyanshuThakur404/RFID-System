@@ -1,0 +1,1217 @@
+2025-04-20 22:17:14,255 - INFO - Starting RFID Attendance System...
+2025-04-20 22:17:14,256 - INFO - Removed existing database for fresh start
+2025-04-20 22:17:14,256 - INFO - Database connection established
+2025-04-20 22:17:14,266 - INFO - Added/Updated user: Naruto Uzumaki (UID: 5A 5E FA 03)
+2025-04-20 22:17:14,266 - INFO - Added/Updated user: Priyanshu Thakur (UID: E9 7B A8 94)
+2025-04-20 22:17:14,266 - INFO - Added/Updated user: Milan (UID: 89 6F 5E 93)
+2025-04-20 22:17:14,267 - INFO - Added/Updated user: Shivam Sharma (UID: 79 AF A0 94)
+2025-04-20 22:17:14,267 - INFO - Added/Updated user: Suparn (UID: F9 03 90 54)
+2025-04-20 22:17:14,267 - INFO - Added/Updated user: Ankush Chandel (UID: 69 70 88 54)
+2025-04-20 22:17:14,270 - INFO - Database initialized successfully
+2025-04-20 22:17:14,270 - INFO - Total users in database: 6
+2025-04-20 22:17:14,270 - INFO - Database connection closed
+2025-04-20 22:17:14,271 - INFO - Database connection established
+2025-04-20 22:17:14,272 - INFO - Database initialized with 6 users
+2025-04-20 22:17:14,272 - INFO - Database connection closed
+2025-04-20 22:17:14,272 - INFO - Database initialized successfully
+2025-04-20 22:17:14,273 - WARNING - Could not connect to COM6, scanning other ports...
+2025-04-20 22:17:14,278 - INFO - Found alternative Arduino port: COM6
+2025-04-20 22:17:14,279 - ERROR - Error starting serial communication: could not open port 'COM6': PermissionError(13, 'Access is denied.', None, 5)
+2025-04-20 22:17:14,279 - INFO - Serial communication started
+2025-04-20 22:17:14,296 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-20 22:17:14,296 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 23:48:04,173 - ERROR - Error initializing database: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-04-20 23:48:04,202 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.77:5000
+2025-04-20 23:48:04,202 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 23:48:04,206 - INFO -  * Restarting with stat
+2025-04-20 23:48:04,499 - ERROR - Error initializing database: Working outside of application context.
+
+This typically means that you attempted to use functionality that needed
+the current application. To solve this, set up an application context
+with app.app_context(). See the documentation for more information.
+2025-04-20 23:48:04,511 - WARNING -  * Debugger is active!
+2025-04-20 23:48:04,516 - INFO -  * Debugger PIN: 105-713-297
+2025-04-21 00:03:32,376 - INFO - Database initialized successfully
+2025-04-21 00:03:32,406 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.77:5000
+2025-04-21 00:03:32,406 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-21 00:03:32,411 - INFO -  * Restarting with stat
+2025-04-21 00:03:32,735 - INFO - Database initialized successfully
+2025-04-21 00:03:32,748 - WARNING -  * Debugger is active!
+2025-04-21 00:03:32,754 - INFO -  * Debugger PIN: 105-713-297
+2025-04-21 00:03:57,468 - INFO - 127.0.0.1 - - [21/Apr/2025 00:03:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-21 00:03:58,505 - INFO - 127.0.0.1 - - [21/Apr/2025 00:03:58] "GET /admin HTTP/1.1" 200 -
+2025-04-21 00:03:59,686 - INFO - 127.0.0.1 - - [21/Apr/2025 00:03:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-21 00:04:12,355 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:12] "GET /admin HTTP/1.1" 200 -
+2025-04-21 00:04:15,479 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:15] "GET / HTTP/1.1" 200 -
+2025-04-21 00:04:15,510 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:15] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:04:17,023 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:17] "GET /admin HTTP/1.1" 200 -
+2025-04-21 00:04:19,048 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:19] "GET /register HTTP/1.1" 200 -
+2025-04-21 00:04:20,423 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:20] "GET /live HTTP/1.1" 200 -
+2025-04-21 00:04:20,457 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:20] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-21 00:04:20,458 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:20] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-21 00:04:20,460 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:20] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-21 00:04:27,127 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:27] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:04:45,816 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:45] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:04:56,810 - INFO - 127.0.0.1 - - [21/Apr/2025 00:04:56] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:05:12,437 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:12] "GET /admin HTTP/1.1" 200 -
+2025-04-21 00:05:14,533 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:14] "GET /admin HTTP/1.1" 200 -
+2025-04-21 00:05:18,012 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:18] "[35m[1mGET /api/students HTTP/1.1[0m" 500 -
+2025-04-21 00:05:20,752 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:20] "[35m[1mGET /api/students HTTP/1.1[0m" 500 -
+2025-04-21 00:05:23,162 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:23] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:05:24,642 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:24] "GET / HTTP/1.1" 200 -
+2025-04-21 00:05:24,683 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:24] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:05:24,890 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:24] "GET / HTTP/1.1" 200 -
+2025-04-21 00:05:24,921 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:24] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:05:25,119 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:25] "GET / HTTP/1.1" 200 -
+2025-04-21 00:05:25,143 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:25] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:05:26,537 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:26] "GET /admin HTTP/1.1" 200 -
+2025-04-21 00:05:27,115 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:27] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:05:55,815 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:55] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:05:57,110 - INFO - 127.0.0.1 - - [21/Apr/2025 00:05:57] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:06:25,807 - INFO - 127.0.0.1 - - [21/Apr/2025 00:06:25] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:06:26,814 - INFO - 127.0.0.1 - - [21/Apr/2025 00:06:26] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:06:55,801 - INFO - 127.0.0.1 - - [21/Apr/2025 00:06:55] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:07:25,815 - INFO - 127.0.0.1 - - [21/Apr/2025 00:07:25] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:07:28,120 - INFO - 127.0.0.1 - - [21/Apr/2025 00:07:28] "[33mGET /api/get_stats HTTP/1.1[0m" 404 -
+2025-04-21 00:07:28,281 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-21 00:07:28,321 - INFO -  * Restarting with stat
+2025-04-21 00:07:28,632 - INFO - Database initialized successfully
+2025-04-21 00:07:28,644 - WARNING -  * Debugger is active!
+2025-04-21 00:07:28,649 - INFO -  * Debugger PIN: 105-713-297
+2025-04-21 00:07:55,823 - INFO - 127.0.0.1 - - [21/Apr/2025 00:07:55] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:08:25,149 - INFO - 127.0.0.1 - - [21/Apr/2025 00:08:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:08:29,113 - INFO - 127.0.0.1 - - [21/Apr/2025 00:08:29] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:08:29,834 - INFO - 127.0.0.1 - - [21/Apr/2025 00:08:29] "GET /register HTTP/1.1" 200 -
+2025-04-21 00:08:52,482 - INFO - 127.0.0.1 - - [21/Apr/2025 00:08:52] "GET /admin HTTP/1.1" 200 -
+2025-04-21 00:09:30,120 - INFO - 127.0.0.1 - - [21/Apr/2025 00:09:30] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:10:31,125 - INFO - 127.0.0.1 - - [21/Apr/2025 00:10:31] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:11:32,119 - INFO - 127.0.0.1 - - [21/Apr/2025 00:11:32] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:12:15,204 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:15] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:12:17,002 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:17] "GET / HTTP/1.1" 200 -
+2025-04-21 00:12:17,032 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:17] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:12:23,292 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:23] "GET /admin HTTP/1.1" 200 -
+2025-04-21 00:12:33,118 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:33] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:12:36,397 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:36] "GET /live HTTP/1.1" 200 -
+2025-04-21 00:12:36,436 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:36] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-21 00:12:36,437 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:36] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-21 00:12:36,440 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:36] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-21 00:12:40,531 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:40] "GET /live HTTP/1.1" 200 -
+2025-04-21 00:12:40,576 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:40] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-21 00:12:40,578 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:40] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-21 00:12:40,581 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:40] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-21 00:12:42,578 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:42] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-21 00:12:47,804 - INFO - 127.0.0.1 - - [21/Apr/2025 00:12:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:13:17,813 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:17] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:13:33,352 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-21 00:13:33,384 - INFO -  * Restarting with stat
+2025-04-21 00:13:33,681 - INFO - Database initialized successfully
+2025-04-21 00:13:33,691 - WARNING -  * Debugger is active!
+2025-04-21 00:13:33,696 - INFO -  * Debugger PIN: 105-713-297
+2025-04-21 00:13:34,125 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:34] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:13:43,178 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:43] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-21 00:13:43,182 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:43] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-21 00:13:43,184 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:43] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-21 00:13:45,123 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:45] "GET / HTTP/1.1" 200 -
+2025-04-21 00:13:45,155 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:45] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:13:45,506 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:45] "GET / HTTP/1.1" 200 -
+2025-04-21 00:13:45,534 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:45] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:13:45,755 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:45] "GET / HTTP/1.1" 200 -
+2025-04-21 00:13:45,780 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:45] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:13:45,933 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:45] "GET / HTTP/1.1" 200 -
+2025-04-21 00:13:45,954 - INFO - 127.0.0.1 - - [21/Apr/2025 00:13:45] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:14:16,812 - INFO - 127.0.0.1 - - [21/Apr/2025 00:14:16] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:14:35,125 - INFO - 127.0.0.1 - - [21/Apr/2025 00:14:35] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:14:46,813 - INFO - 127.0.0.1 - - [21/Apr/2025 00:14:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:15:16,821 - INFO - 127.0.0.1 - - [21/Apr/2025 00:15:16] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:15:36,128 - INFO - 127.0.0.1 - - [21/Apr/2025 00:15:36] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:15:46,810 - INFO - 127.0.0.1 - - [21/Apr/2025 00:15:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:16:16,803 - INFO - 127.0.0.1 - - [21/Apr/2025 00:16:16] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:16:37,122 - INFO - 127.0.0.1 - - [21/Apr/2025 00:16:37] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:16:46,819 - INFO - 127.0.0.1 - - [21/Apr/2025 00:16:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:17:38,114 - INFO - 127.0.0.1 - - [21/Apr/2025 00:17:38] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:17:46,818 - INFO - 127.0.0.1 - - [21/Apr/2025 00:17:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:18:39,117 - INFO - 127.0.0.1 - - [21/Apr/2025 00:18:39] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:18:46,820 - INFO - 127.0.0.1 - - [21/Apr/2025 00:18:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:19:40,115 - INFO - 127.0.0.1 - - [21/Apr/2025 00:19:40] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:19:46,805 - INFO - 127.0.0.1 - - [21/Apr/2025 00:19:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:20:41,113 - INFO - 127.0.0.1 - - [21/Apr/2025 00:20:41] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:20:46,812 - INFO - 127.0.0.1 - - [21/Apr/2025 00:20:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:21:42,112 - INFO - 127.0.0.1 - - [21/Apr/2025 00:21:42] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:21:46,811 - INFO - 127.0.0.1 - - [21/Apr/2025 00:21:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:22:43,124 - INFO - 127.0.0.1 - - [21/Apr/2025 00:22:43] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:22:46,813 - INFO - 127.0.0.1 - - [21/Apr/2025 00:22:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:23:44,114 - INFO - 127.0.0.1 - - [21/Apr/2025 00:23:44] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:23:46,815 - INFO - 127.0.0.1 - - [21/Apr/2025 00:23:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:24:45,121 - INFO - 127.0.0.1 - - [21/Apr/2025 00:24:45] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:24:46,808 - INFO - 127.0.0.1 - - [21/Apr/2025 00:24:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:25:46,113 - INFO - 127.0.0.1 - - [21/Apr/2025 00:25:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:25:46,815 - INFO - 127.0.0.1 - - [21/Apr/2025 00:25:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:26:46,823 - INFO - 127.0.0.1 - - [21/Apr/2025 00:26:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:26:47,138 - INFO - 127.0.0.1 - - [21/Apr/2025 00:26:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:27:46,820 - INFO - 127.0.0.1 - - [21/Apr/2025 00:27:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:27:46,821 - INFO - 127.0.0.1 - - [21/Apr/2025 00:27:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:28:46,808 - INFO - 127.0.0.1 - - [21/Apr/2025 00:28:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:28:47,115 - INFO - 127.0.0.1 - - [21/Apr/2025 00:28:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:29:46,817 - INFO - 127.0.0.1 - - [21/Apr/2025 00:29:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:29:46,818 - INFO - 127.0.0.1 - - [21/Apr/2025 00:29:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:30:46,818 - INFO - 127.0.0.1 - - [21/Apr/2025 00:30:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:30:47,126 - INFO - 127.0.0.1 - - [21/Apr/2025 00:30:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:31:46,809 - INFO - 127.0.0.1 - - [21/Apr/2025 00:31:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:31:46,811 - INFO - 127.0.0.1 - - [21/Apr/2025 00:31:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:32:46,815 - INFO - 127.0.0.1 - - [21/Apr/2025 00:32:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:32:47,124 - INFO - 127.0.0.1 - - [21/Apr/2025 00:32:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:33:46,809 - INFO - 127.0.0.1 - - [21/Apr/2025 00:33:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:33:46,810 - INFO - 127.0.0.1 - - [21/Apr/2025 00:33:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:34:46,823 - INFO - 127.0.0.1 - - [21/Apr/2025 00:34:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:34:47,124 - INFO - 127.0.0.1 - - [21/Apr/2025 00:34:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:35:46,814 - INFO - 127.0.0.1 - - [21/Apr/2025 00:35:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:35:46,815 - INFO - 127.0.0.1 - - [21/Apr/2025 00:35:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:36:46,820 - INFO - 127.0.0.1 - - [21/Apr/2025 00:36:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:36:47,130 - INFO - 127.0.0.1 - - [21/Apr/2025 00:36:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:37:46,822 - INFO - 127.0.0.1 - - [21/Apr/2025 00:37:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:37:46,824 - INFO - 127.0.0.1 - - [21/Apr/2025 00:37:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:38:46,808 - INFO - 127.0.0.1 - - [21/Apr/2025 00:38:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:38:47,111 - INFO - 127.0.0.1 - - [21/Apr/2025 00:38:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:39:46,810 - INFO - 127.0.0.1 - - [21/Apr/2025 00:39:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:39:46,811 - INFO - 127.0.0.1 - - [21/Apr/2025 00:39:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:40:46,810 - INFO - 127.0.0.1 - - [21/Apr/2025 00:40:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:40:47,114 - INFO - 127.0.0.1 - - [21/Apr/2025 00:40:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:41:46,819 - INFO - 127.0.0.1 - - [21/Apr/2025 00:41:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:41:46,819 - INFO - 127.0.0.1 - - [21/Apr/2025 00:41:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:42:46,811 - INFO - 127.0.0.1 - - [21/Apr/2025 00:42:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:42:47,120 - INFO - 127.0.0.1 - - [21/Apr/2025 00:42:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:43:46,819 - INFO - 127.0.0.1 - - [21/Apr/2025 00:43:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:43:46,821 - INFO - 127.0.0.1 - - [21/Apr/2025 00:43:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:44:46,828 - INFO - 127.0.0.1 - - [21/Apr/2025 00:44:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:44:47,138 - INFO - 127.0.0.1 - - [21/Apr/2025 00:44:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:45:46,802 - INFO - 127.0.0.1 - - [21/Apr/2025 00:45:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:45:46,806 - INFO - 127.0.0.1 - - [21/Apr/2025 00:45:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:46:46,819 - INFO - 127.0.0.1 - - [21/Apr/2025 00:46:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:46:47,123 - INFO - 127.0.0.1 - - [21/Apr/2025 00:46:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:47:46,805 - INFO - 127.0.0.1 - - [21/Apr/2025 00:47:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:47:46,807 - INFO - 127.0.0.1 - - [21/Apr/2025 00:47:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:48:46,816 - INFO - 127.0.0.1 - - [21/Apr/2025 00:48:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:48:47,123 - INFO - 127.0.0.1 - - [21/Apr/2025 00:48:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:49:46,810 - INFO - 127.0.0.1 - - [21/Apr/2025 00:49:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:49:46,812 - INFO - 127.0.0.1 - - [21/Apr/2025 00:49:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:50:46,800 - INFO - 127.0.0.1 - - [21/Apr/2025 00:50:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:50:47,128 - INFO - 127.0.0.1 - - [21/Apr/2025 00:50:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:51:46,816 - INFO - 127.0.0.1 - - [21/Apr/2025 00:51:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:51:46,819 - INFO - 127.0.0.1 - - [21/Apr/2025 00:51:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:52:46,816 - INFO - 127.0.0.1 - - [21/Apr/2025 00:52:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:52:47,121 - INFO - 127.0.0.1 - - [21/Apr/2025 00:52:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:53:46,809 - INFO - 127.0.0.1 - - [21/Apr/2025 00:53:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:53:46,812 - INFO - 127.0.0.1 - - [21/Apr/2025 00:53:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:54:46,831 - INFO - 127.0.0.1 - - [21/Apr/2025 00:54:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:54:47,134 - INFO - 127.0.0.1 - - [21/Apr/2025 00:54:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:55:46,807 - INFO - 127.0.0.1 - - [21/Apr/2025 00:55:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:55:46,811 - INFO - 127.0.0.1 - - [21/Apr/2025 00:55:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:56:46,812 - INFO - 127.0.0.1 - - [21/Apr/2025 00:56:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:56:47,121 - INFO - 127.0.0.1 - - [21/Apr/2025 00:56:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:57:46,804 - INFO - 127.0.0.1 - - [21/Apr/2025 00:57:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:57:46,805 - INFO - 127.0.0.1 - - [21/Apr/2025 00:57:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-21 00:58:22,219 - INFO - 127.0.0.1 - - [21/Apr/2025 00:58:22] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:50:37,687 - INFO - Database initialized successfully
+2025-04-22 02:50:37,729 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-04-22 02:50:37,729 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 02:50:37,735 - INFO -  * Restarting with stat
+2025-04-22 02:50:38,076 - INFO - Database initialized successfully
+2025-04-22 02:50:38,087 - WARNING -  * Debugger is active!
+2025-04-22 02:50:38,093 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 02:51:23,110 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:23] "GET / HTTP/1.1" 200 -
+2025-04-22 02:51:23,215 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:23] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:51:23,425 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 02:51:27,371 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:27] "GET /live HTTP/1.1" 200 -
+2025-04-22 02:51:27,425 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:27] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 02:51:27,427 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:27] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 02:51:27,428 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:27] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 02:51:29,432 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:29] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 02:51:31,428 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:31] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 02:51:32,449 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:32] "GET /register HTTP/1.1" 200 -
+2025-04-22 02:51:43,474 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:43] "GET /admin HTTP/1.1" 200 -
+2025-04-22 02:51:53,218 - INFO - 127.0.0.1 - - [22/Apr/2025 02:51:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:52:00,666 - INFO - 127.0.0.1 - - [22/Apr/2025 02:52:00] "GET /admin HTTP/1.1" 200 -
+2025-04-22 02:52:14,614 - INFO - 127.0.0.1 - - [22/Apr/2025 02:52:14] "[35m[1mGET /api/students HTTP/1.1[0m" 500 -
+2025-04-22 02:52:23,219 - INFO - 127.0.0.1 - - [22/Apr/2025 02:52:23] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:52:53,226 - INFO - 127.0.0.1 - - [22/Apr/2025 02:52:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:53:24,021 - INFO - 127.0.0.1 - - [22/Apr/2025 02:53:24] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:53:54,022 - INFO - 127.0.0.1 - - [22/Apr/2025 02:53:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:54:10,328 - INFO - 127.0.0.1 - - [22/Apr/2025 02:54:10] "GET /live HTTP/1.1" 200 -
+2025-04-22 02:54:10,390 - INFO - 127.0.0.1 - - [22/Apr/2025 02:54:10] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 02:54:10,399 - INFO - 127.0.0.1 - - [22/Apr/2025 02:54:10] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 02:54:10,407 - INFO - 127.0.0.1 - - [22/Apr/2025 02:54:10] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 02:54:23,234 - INFO - 127.0.0.1 - - [22/Apr/2025 02:54:23] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:54:53,218 - INFO - 127.0.0.1 - - [22/Apr/2025 02:54:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:55:23,233 - INFO - 127.0.0.1 - - [22/Apr/2025 02:55:23] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:55:53,229 - INFO - 127.0.0.1 - - [22/Apr/2025 02:55:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:56:23,221 - INFO - 127.0.0.1 - - [22/Apr/2025 02:56:23] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:56:53,231 - INFO - 127.0.0.1 - - [22/Apr/2025 02:56:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:57:23,215 - INFO - 127.0.0.1 - - [22/Apr/2025 02:57:23] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:57:54,019 - INFO - 127.0.0.1 - - [22/Apr/2025 02:57:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:58:25,024 - INFO - 127.0.0.1 - - [22/Apr/2025 02:58:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:58:39,127 - INFO - 127.0.0.1 - - [22/Apr/2025 02:58:39] "GET / HTTP/1.1" 200 -
+2025-04-22 02:58:39,173 - INFO - 127.0.0.1 - - [22/Apr/2025 02:58:39] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:58:45,182 - INFO - Database initialized successfully
+2025-04-22 02:58:45,210 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-04-22 02:58:45,210 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 02:58:45,215 - INFO -  * Restarting with stat
+2025-04-22 02:58:45,610 - INFO - Database initialized successfully
+2025-04-22 02:58:45,622 - WARNING -  * Debugger is active!
+2025-04-22 02:58:45,629 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 02:58:49,359 - INFO - 127.0.0.1 - - [22/Apr/2025 02:58:49] "GET / HTTP/1.1" 200 -
+2025-04-22 02:58:49,467 - INFO - 127.0.0.1 - - [22/Apr/2025 02:58:49] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:59:10,019 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:10] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:59:20,022 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:59:40,016 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:40] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:59:50,015 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:59:58,493 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:58] "GET / HTTP/1.1" 200 -
+2025-04-22 02:59:58,546 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:58] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:59:59,256 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:59] "GET / HTTP/1.1" 200 -
+2025-04-22 02:59:59,291 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:59] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:59:59,516 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:59] "GET / HTTP/1.1" 200 -
+2025-04-22 02:59:59,545 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:59] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 02:59:59,906 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:59] "GET / HTTP/1.1" 200 -
+2025-04-22 02:59:59,936 - INFO - 127.0.0.1 - - [22/Apr/2025 02:59:59] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:00:10,027 - INFO - 127.0.0.1 - - [22/Apr/2025 03:00:10] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:00:30,015 - INFO - 127.0.0.1 - - [22/Apr/2025 03:00:30] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:00:40,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:00:40] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:01:00,024 - INFO - 127.0.0.1 - - [22/Apr/2025 03:01:00] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:01:10,019 - INFO - 127.0.0.1 - - [22/Apr/2025 03:01:10] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:01:31,360 - INFO - 127.0.0.1 - - [22/Apr/2025 03:01:31] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:01:51,687 - INFO - 127.0.0.1 - - [22/Apr/2025 03:01:51] "GET / HTTP/1.1" 200 -
+2025-04-22 03:01:51,721 - INFO - 127.0.0.1 - - [22/Apr/2025 03:01:51] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:02:01,921 - INFO - Database initialized successfully
+2025-04-22 03:02:01,954 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-04-22 03:02:01,955 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 03:02:01,959 - INFO -  * Restarting with stat
+2025-04-22 03:02:02,403 - INFO - Database initialized successfully
+2025-04-22 03:02:02,439 - WARNING -  * Debugger is active!
+2025-04-22 03:02:02,451 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:02:11,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:11] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:02:20,581 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:20] "GET / HTTP/1.1" 200 -
+2025-04-22 03:02:20,638 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:20] "GET / HTTP/1.1" 200 -
+2025-04-22 03:02:20,686 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:02:20,706 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:02:22,025 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:22] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:02:23,154 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:23] "GET /admin HTTP/1.1" 200 -
+2025-04-22 03:02:25,384 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:25] "GET /register HTTP/1.1" 200 -
+2025-04-22 03:02:30,496 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:30] "GET /register HTTP/1.1" 200 -
+2025-04-22 03:02:50,698 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:02:51,045 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:51] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:02:52,012 - INFO - 127.0.0.1 - - [22/Apr/2025 03:02:52] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:03:12,011 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:12] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:03:20,708 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:03:21,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:21] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:03:22,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:22] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:03:35,026 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:35] "GET / HTTP/1.1" 200 -
+2025-04-22 03:03:35,066 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:35] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:03:36,136 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:36] "GET / HTTP/1.1" 200 -
+2025-04-22 03:03:36,168 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:36] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:03:50,703 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:03:52,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:03:52] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:04:07,015 - INFO - 127.0.0.1 - - [22/Apr/2025 03:04:07] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:04:13,019 - INFO - 127.0.0.1 - - [22/Apr/2025 03:04:13] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:04:20,694 - INFO - 127.0.0.1 - - [22/Apr/2025 03:04:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:04:22,019 - INFO - 127.0.0.1 - - [22/Apr/2025 03:04:22] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+
+
+2025-04-22 03:04:59,852 - INFO - 127.0.0.1 - - [22/Apr/2025 03:04:59] "GET / HTTP/1.1" 200 -
+2025-04-22 03:04:59,888 - INFO - 127.0.0.1 - - [22/Apr/2025 03:04:59] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:05:14,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:05:14] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:05:20,703 - INFO - 127.0.0.1 - - [22/Apr/2025 03:05:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:05:23,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:05:23] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:05:30,019 - INFO - 127.0.0.1 - - [22/Apr/2025 03:05:30] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:05:50,691 - INFO - 127.0.0.1 - - [22/Apr/2025 03:05:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:05:56,430 - INFO - 127.0.0.1 - - [22/Apr/2025 03:05:56] "GET / HTTP/1.1" 200 -
+2025-04-22 03:05:56,491 - INFO - 127.0.0.1 - - [22/Apr/2025 03:05:56] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:06:15,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:06:15] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:06:20,697 - INFO - 127.0.0.1 - - [22/Apr/2025 03:06:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:06:24,016 - INFO - 127.0.0.1 - - [22/Apr/2025 03:06:24] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:06:27,024 - INFO - 127.0.0.1 - - [22/Apr/2025 03:06:27] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:06:50,689 - INFO - 127.0.0.1 - - [22/Apr/2025 03:06:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:06:57,019 - INFO - 127.0.0.1 - - [22/Apr/2025 03:06:57] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:07:00,712 - INFO - 127.0.0.1 - - [22/Apr/2025 03:07:00] "GET / HTTP/1.1" 200 -
+2025-04-22 03:07:00,760 - INFO - 127.0.0.1 - - [22/Apr/2025 03:07:00] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:07:16,024 - INFO - 127.0.0.1 - - [22/Apr/2025 03:07:16] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:07:20,700 - INFO - 127.0.0.1 - - [22/Apr/2025 03:07:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:07:25,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:07:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:07:31,009 - INFO - 127.0.0.1 - - [22/Apr/2025 03:07:31] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:07:50,702 - INFO - 127.0.0.1 - - [22/Apr/2025 03:07:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:08:01,030 - INFO - 127.0.0.1 - - [22/Apr/2025 03:08:01] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:08:09,819 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:08:09,869 - INFO -  * Restarting with stat
+2025-04-22 03:08:09,927 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:08:09,997 - INFO -  * Restarting with stat
+2025-04-22 03:08:10,070 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:08:10,122 - INFO -  * Restarting with stat
+2025-04-22 03:08:10,363 - INFO - Database initialized successfully
+2025-04-22 03:08:10,381 - WARNING -  * Debugger is active!
+2025-04-22 03:08:10,385 - INFO - Database initialized successfully
+2025-04-22 03:08:10,389 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:08:10,400 - WARNING -  * Debugger is active!
+2025-04-22 03:08:10,407 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:08:10,510 - INFO - Database initialized successfully
+2025-04-22 03:08:10,524 - WARNING -  * Debugger is active!
+2025-04-22 03:08:10,531 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:08:17,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:08:17] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:08:20,696 - INFO - 127.0.0.1 - - [22/Apr/2025 03:08:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:08:25,029 - INFO - 127.0.0.1 - - [22/Apr/2025 03:08:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:08:29,027 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:08:29,067 - INFO -  * Restarting with stat
+2025-04-22 03:08:29,192 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:08:29,238 - INFO -  * Restarting with stat
+2025-04-22 03:08:29,290 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:08:29,341 - INFO -  * Restarting with stat
+2025-04-22 03:08:29,490 - INFO - Database initialized successfully
+2025-04-22 03:08:29,506 - WARNING -  * Debugger is active!
+2025-04-22 03:08:29,513 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:08:29,647 - INFO - Database initialized successfully
+2025-04-22 03:08:29,662 - WARNING -  * Debugger is active!
+2025-04-22 03:08:29,669 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:08:29,739 - INFO - Database initialized successfully
+2025-04-22 03:08:29,755 - WARNING -  * Debugger is active!
+2025-04-22 03:08:29,763 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:08:30,762 - INFO - 127.0.0.1 - - [22/Apr/2025 03:08:30] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:08:31,706 - INFO - 127.0.0.1 - - [22/Apr/2025 03:08:31] "GET / HTTP/1.1" 200 -
+2025-04-22 03:08:31,746 - INFO - 127.0.0.1 - - [22/Apr/2025 03:08:31] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:10:35,360 - INFO - 127.0.0.1 - - [22/Apr/2025 03:10:35] "GET / HTTP/1.1" 200 -
+2025-04-22 03:10:35,393 - INFO - 127.0.0.1 - - [22/Apr/2025 03:10:35] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:10:50,715 - INFO - 127.0.0.1 - - [22/Apr/2025 03:10:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:11:06,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:06] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:11:20,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:11:20,690 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:11:25,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:11:25,863 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:25] "GET / HTTP/1.1" 200 -
+2025-04-22 03:11:25,910 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:11:47,832 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:47] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:11:47,870 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:47] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:11:47,872 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:47] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:11:47,874 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:47] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:11:49,868 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:49] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:11:50,696 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:11:51,877 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:51] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:11:52,875 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:52] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:11:53,868 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:53] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:11:55,872 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:55] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:11:57,876 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:57] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:11:57,879 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:57] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:11:57,882 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:57] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:11:59,877 - INFO - 127.0.0.1 - - [22/Apr/2025 03:11:59] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:01,874 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:01] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:02,870 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:02] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:03,872 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:03] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:05,868 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:05] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:07,868 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:07] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:07,875 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:07] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:07,884 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:07] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:09,447 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:09,496 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:09,498 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:09,502 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:09,661 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:09,787 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:09,789 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:09,796 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:09,892 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:09,928 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:09,929 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:09,932 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:09] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,115 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:10,149 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,152 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,155 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,508 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:10,545 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,548 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,550 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,686 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:10,834 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,836 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,839 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,903 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:10,977 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,979 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:10,981 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:10] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,051 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:11,113 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,116 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,117 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,294 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:11,326 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,328 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,332 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,409 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:11,439 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,441 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,444 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,594 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:11,630 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,631 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,638 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,751 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:11,835 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,837 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:11,841 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:11] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:12,036 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:12,098 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:12,101 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:12,114 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:12,167 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:12,200 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:12,203 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:12,205 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:12,401 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:12:12,447 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:12,449 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:12,452 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:12] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:15,023 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:15] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:17,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:17] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:18,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:18] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:19,025 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:19] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:20,698 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:12:21,014 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:21] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:21,030 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:21] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:12:23,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:23] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:23,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:23] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:23,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:23] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:25,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:12:25,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:25] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:27,012 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:27] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:28,014 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:28] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:29,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:29] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:31,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:31] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:33,016 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:33] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:33,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:33] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:33,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:33] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:35,014 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:35] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:37,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:37] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:38,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:38] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:39,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:39] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:41,027 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:41] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:43,014 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:43] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:43,015 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:43] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:43,015 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:43] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:45,032 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:45] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:47,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:47] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:48,016 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:48] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:49,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:49] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:50,705 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:12:51,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:51] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:53,013 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:53] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:53,015 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:53] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:53,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:53] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:12:55,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:55] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:57,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:57] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:12:58,025 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:58] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:12:59,011 - INFO - 127.0.0.1 - - [22/Apr/2025 03:12:59] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:13:01,025 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:01] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:13:03,039 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:03] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:13:03,041 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:03] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:13:03,042 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:03] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:05,024 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:05] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:13:07,013 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:07] "[33mGET /api/get_recent_scans HTTP/1.1[0m" 404 -
+2025-04-22 03:13:08,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:08] "[33mGET /api/status HTTP/1.1[0m" 404 -
+2025-04-22 03:13:08,886 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:13:08,911 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:13:08,929 - INFO -  * Restarting with stat
+2025-04-22 03:13:08,953 - INFO -  * Restarting with stat
+2025-04-22 03:13:09,084 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:13:09,132 - INFO -  * Restarting with stat
+2025-04-22 03:13:09,331 - INFO - Database initialized successfully
+2025-04-22 03:13:09,347 - WARNING -  * Debugger is active!
+2025-04-22 03:13:09,348 - INFO - Database initialized successfully
+2025-04-22 03:13:09,355 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:13:09,370 - WARNING -  * Debugger is active!
+2025-04-22 03:13:09,384 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:13:09,550 - INFO - Database initialized successfully
+2025-04-22 03:13:09,568 - WARNING -  * Debugger is active!
+2025-04-22 03:13:09,575 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:13:09,998 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:09] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:11,015 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:11] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:13,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:13] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:13,019 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:13] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:13,023 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:13] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:16,810 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:13:16,852 - INFO -  * Restarting with stat
+2025-04-22 03:13:17,046 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:13:17,084 - INFO -  * Restarting with stat
+2025-04-22 03:13:17,242 - INFO - Database initialized successfully
+2025-04-22 03:13:17,257 - WARNING -  * Debugger is active!
+2025-04-22 03:13:17,264 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:13:17,450 - INFO - Database initialized successfully
+2025-04-22 03:13:17,467 - WARNING -  * Debugger is active!
+2025-04-22 03:13:17,474 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:13:18,311 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:13:18,354 - INFO -  * Restarting with stat
+2025-04-22 03:13:18,783 - INFO - Database initialized successfully
+2025-04-22 03:13:18,799 - WARNING -  * Debugger is active!
+2025-04-22 03:13:18,807 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:13:19,451 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:19] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:19,453 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:19] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:20,200 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:20] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:20,248 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:20] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:20,250 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:20] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:20,254 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:20] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:20,689 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:13:20,895 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:20] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:20,931 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:20] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:20,933 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:20] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:20,936 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:20] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:21,055 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:21,136 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:21,137 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:21,138 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:21,301 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:21,336 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:21,337 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:21,342 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:21,438 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:21,484 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:21,486 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:21,488 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:21,589 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:21,673 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:21,674 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:21,676 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:21] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:22,023 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:22] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:13:23,427 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:23] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:23,458 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:23] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:23,459 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:23] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:23,461 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:23] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:24,380 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:24] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:24,418 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:24] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:24,420 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:24] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:24,423 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:24] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:25,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:13:26,422 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:26] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:26,497 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:26] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:13:27,370 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:27] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:27,409 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:27] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:27,414 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:27] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:27,419 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:27] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:29,427 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:29] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:29,493 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:29] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:13:29,527 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:29] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:29,530 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:29] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:29,535 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:29] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:31,537 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:31] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:33,535 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:33] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:34,538 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:34] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:35,528 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:35] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:38,076 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:38] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:40,025 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:40] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:40,026 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:40] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:40,033 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:40] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:42,025 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:42] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:44,267 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:44] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:45,066 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:45] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:46,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:46] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:48,026 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:48] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:50,064 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:50] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:50,068 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:50] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:50,074 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:50] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:13:50,702 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:13:52,026 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:52] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:54,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:54] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:55,076 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:55] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:13:56,098 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:56] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:13:58,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:13:58] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:00,051 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:00] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:00,059 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:00] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:00,066 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:00] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:02,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:02] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:04,019 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:04] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:05,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:05] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:06,038 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:06] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:07,538 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:07] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:10,055 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:10] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:10,062 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:10] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:10,066 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:10] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:12,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:12] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:14,014 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:14] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:15,023 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:15] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:16,025 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:16] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:18,100 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:18] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:20,016 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:20] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:20,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:20] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:20,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:20] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:20,695 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:14:22,015 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:22] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:23,205 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:23] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:14:24,157 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:24] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:25,013 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:25] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:25,029 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:14:26,025 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:26] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:28,063 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:28] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:30,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:30] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:30,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:30] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:30,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:30] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:31,535 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:31] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:32,401 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:32] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:32,437 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:32] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:32,438 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:32] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:32,441 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:32] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:32,910 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:32] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:32,954 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:32] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:32,959 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:32] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:32,966 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:32] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:33,159 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:33,212 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:33,216 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:33,220 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:33,319 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:33,355 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:33,356 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:33,361 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:33,757 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:33,797 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:33,798 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:33,805 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:33,990 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:33] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:34,029 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,032 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,038 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:34,142 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:34,285 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,292 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,296 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:34,328 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:34,385 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,387 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,391 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:34,570 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:34,610 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,612 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,614 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:34,838 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:34,886 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,893 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:34,901 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:34] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:35,079 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:35,132 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,134 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,137 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:35,283 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:35,320 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,326 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,328 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:35,450 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:35,527 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,535 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,547 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:35,663 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:35,792 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,797 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,800 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:35,833 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:35,867 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,869 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:35,871 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:35] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:36,013 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:36,043 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,045 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,049 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:36,227 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:36,312 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,313 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,315 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:36,411 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:36,451 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,487 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,503 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:36,581 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:36,628 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,631 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,633 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:36,811 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:36,912 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,912 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:36,916 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:36] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:37,119 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:37] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:14:37,152 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:37] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:37,154 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:37] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:37,158 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:37] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:39,158 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:39] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:42,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:42] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:43,032 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:43] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:44,013 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:44] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:46,013 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:46] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:48,014 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:48] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:48,017 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:48] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:48,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:48] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:14:50,018 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:50] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:50,693 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:14:52,026 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:52] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:53,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:53] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:54,014 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:54] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:56,023 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:56] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:58,011 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:58] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:14:58,012 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:58] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:14:58,013 - INFO - 127.0.0.1 - - [22/Apr/2025 03:14:58] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:15:00,025 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:00] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:02,024 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:02] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:03,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:03] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:15:04,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:04] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:06,014 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:06] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:08,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:08] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:15:08,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:08] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:08,023 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:08] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:15:10,015 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:10] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:12,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:12] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:13,031 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:13] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:15:14,019 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:14] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:16,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:16] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:18,023 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:18] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:15:18,028 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:18] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:18,033 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:18] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:15:20,015 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:20] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:20,701 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:20] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:15:22,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:22] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:23,023 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:23] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:15:24,020 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:24] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:24,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:24] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:15:25,041 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:25] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:15:26,027 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:26] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:27,156 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:27] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 03:15:27,156 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:27] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 03:15:27,159 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:27] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:15:28,046 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:28] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:15:28,095 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:28] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:15:28,142 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:28] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-04-22 03:15:28,146 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:28] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:28,699 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:28] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:15:28,735 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:28] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:15:28,759 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:28] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-04-22 03:15:28,773 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:28] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:30,097 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:30] "GET /live HTTP/1.1" 200 -
+2025-04-22 03:15:30,143 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:30] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:15:30,201 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:30] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-04-22 03:15:30,204 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:30] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:32,271 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:32] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:35,070 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:35] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:36,111 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:36] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-04-22 03:15:37,053 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:37] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:39,038 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:39] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:41,034 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:41] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:15:41,051 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:41] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-04-22 03:15:41,054 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:41] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:43,022 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:43] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:45,041 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:45] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:46,026 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:46] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-04-22 03:15:47,042 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:47] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:49,040 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:49] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:50,700 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:50] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:15:51,021 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:51] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 03:15:51,046 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:51] "[35m[1mGET /api/get_recent_scans HTTP/1.1[0m" 500 -
+2025-04-22 03:15:51,048 - INFO - 127.0.0.1 - - [22/Apr/2025 03:15:51] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2025-04-22 03:15:52,901 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:15:52,920 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:15:52,949 - INFO -  * Restarting with stat
+2025-04-22 03:15:52,965 - INFO -  * Restarting with stat
+2025-04-22 03:15:53,115 - INFO -  * Detected change in 'C:\\Users\\priya\\OneDrive\\Desktop\\RFID_ATTENDENCE\\app.py', reloading
+2025-04-22 03:15:53,162 - INFO -  * Restarting with stat
+2025-04-22 03:19:57,395 - INFO - Database initialized successfully
+2025-04-22 03:19:57,444 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+2025-04-22 03:19:57,444 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 03:19:57,451 - INFO -  * Restarting with stat
+2025-04-22 03:19:57,979 - INFO - Database initialized successfully
+2025-04-22 03:19:57,999 - WARNING -  * Debugger is active!
+2025-04-22 03:19:58,008 - INFO -  * Debugger PIN: 820-913-745
+2025-04-22 03:20:10,016 - INFO - 127.0.0.1 - - [22/Apr/2025 03:20:10] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:20:22,030 - INFO - 192.168.0.104 - - [22/Apr/2025 03:20:22] "GET / HTTP/1.1" 200 -
+2025-04-22 03:20:22,032 - INFO - 127.0.0.1 - - [22/Apr/2025 03:20:22] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:20:22,495 - INFO - 192.168.0.104 - - [22/Apr/2025 03:20:22] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:20:23,384 - INFO - 192.168.0.104 - - [22/Apr/2025 03:20:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 03:20:27,635 - INFO - 127.0.0.1 - - [22/Apr/2025 03:20:27] "GET / HTTP/1.1" 200 -
+2025-04-22 03:20:27,743 - INFO - 127.0.0.1 - - [22/Apr/2025 03:20:27] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:20:45,458 - INFO - 192.168.0.104 - - [22/Apr/2025 03:20:45] "GET /admin HTTP/1.1" 200 -
+2025-04-22 03:20:51,920 - INFO - 127.0.0.1 - - [22/Apr/2025 03:20:51] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:20:52,533 - INFO - 192.168.0.104 - - [22/Apr/2025 03:20:52] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:20:53,423 - INFO - 127.0.0.1 - - [22/Apr/2025 03:20:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 03:20:57,756 - INFO - 127.0.0.1 - - [22/Apr/2025 03:20:57] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 10:17:13,588 - INFO - Database initialized successfully
+2025-04-22 10:17:13,636 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.130.18:5000
+2025-04-22 10:17:13,636 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-22 10:17:13,644 - INFO -  * Restarting with stat
+2025-04-22 10:17:13,995 - INFO - Database initialized successfully
+2025-04-22 10:17:14,008 - WARNING -  * Debugger is active!
+2025-04-22 10:17:14,015 - INFO -  * Debugger PIN: 730-704-003
+2025-04-22 10:17:19,480 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:19] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 10:17:38,512 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:38] "GET / HTTP/1.1" 200 -
+2025-04-22 10:17:38,599 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:38] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 10:17:38,738 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-22 10:17:48,789 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:48] "GET /admin HTTP/1.1" 200 -
+2025-04-22 10:17:54,223 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:54] "GET /register HTTP/1.1" 200 -
+2025-04-22 10:17:56,343 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:56] "GET /live HTTP/1.1" 200 -
+2025-04-22 10:17:56,377 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:56] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 10:17:56,381 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:56] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 10:17:56,382 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:56] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 10:17:58,502 - INFO - 127.0.0.1 - - [22/Apr/2025 10:17:58] "GET /admin HTTP/1.1" 200 -
+2025-04-22 10:18:06,072 - INFO - 127.0.0.1 - - [22/Apr/2025 10:18:06] "GET /admin HTTP/1.1" 200 -
+2025-04-22 10:18:18,227 - INFO - 127.0.0.1 - - [22/Apr/2025 10:18:18] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 10:18:39,455 - INFO - 127.0.0.1 - - [22/Apr/2025 10:18:39] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 10:19:09,978 - INFO - 127.0.0.1 - - [22/Apr/2025 10:19:09] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 10:19:39,455 - INFO - 127.0.0.1 - - [22/Apr/2025 10:19:39] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 10:20:09,463 - INFO - 127.0.0.1 - - [22/Apr/2025 10:20:09] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 10:20:46,451 - INFO - 127.0.0.1 - - [22/Apr/2025 10:20:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 10:21:38,702 - INFO - 127.0.0.1 - - [22/Apr/2025 10:21:38] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 12:59:04,745 - INFO - 127.0.0.1 - - [22/Apr/2025 12:59:04] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 12:59:46,265 - INFO - 127.0.0.1 - - [22/Apr/2025 12:59:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:00:46,281 - INFO - 127.0.0.1 - - [22/Apr/2025 13:00:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:01:14,642 - INFO - 127.0.0.1 - - [22/Apr/2025 13:01:14] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:01:17,773 - INFO - 127.0.0.1 - - [22/Apr/2025 13:01:17] "GET /admin HTTP/1.1" 200 -
+2025-04-22 13:01:20,466 - INFO - 127.0.0.1 - - [22/Apr/2025 13:01:20] "GET /register HTTP/1.1" 200 -
+2025-04-22 13:01:21,759 - INFO - 127.0.0.1 - - [22/Apr/2025 13:01:21] "GET /live HTTP/1.1" 200 -
+2025-04-22 13:01:21,787 - INFO - 127.0.0.1 - - [22/Apr/2025 13:01:21] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-22 13:01:21,789 - INFO - 127.0.0.1 - - [22/Apr/2025 13:01:21] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-22 13:01:21,791 - INFO - 127.0.0.1 - - [22/Apr/2025 13:01:21] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-22 13:01:41,813 - INFO - 127.0.0.1 - - [22/Apr/2025 13:01:41] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:02:09,327 - INFO - 127.0.0.1 - - [22/Apr/2025 13:02:09] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:02:46,286 - INFO - 127.0.0.1 - - [22/Apr/2025 13:02:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:03:46,272 - INFO - 127.0.0.1 - - [22/Apr/2025 13:03:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:04:46,277 - INFO - 127.0.0.1 - - [22/Apr/2025 13:04:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:05:46,277 - INFO - 127.0.0.1 - - [22/Apr/2025 13:05:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:06:46,281 - INFO - 127.0.0.1 - - [22/Apr/2025 13:06:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:07:46,280 - INFO - 127.0.0.1 - - [22/Apr/2025 13:07:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:08:27,972 - INFO - 127.0.0.1 - - [22/Apr/2025 13:08:27] "GET / HTTP/1.1" 200 -
+2025-04-22 13:08:28,651 - INFO - 127.0.0.1 - - [22/Apr/2025 13:08:28] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:08:46,399 - INFO - 127.0.0.1 - - [22/Apr/2025 13:08:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:09:46,596 - INFO - 127.0.0.1 - - [22/Apr/2025 13:09:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:10:46,585 - INFO - 127.0.0.1 - - [22/Apr/2025 13:10:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:11:46,394 - INFO - 127.0.0.1 - - [22/Apr/2025 13:11:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:12:46,627 - INFO - 127.0.0.1 - - [22/Apr/2025 13:12:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:13:46,624 - INFO - 127.0.0.1 - - [22/Apr/2025 13:13:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:14:46,505 - INFO - 127.0.0.1 - - [22/Apr/2025 13:14:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:15:46,302 - INFO - 127.0.0.1 - - [22/Apr/2025 13:15:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:16:46,276 - INFO - 127.0.0.1 - - [22/Apr/2025 13:16:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:17:46,267 - INFO - 127.0.0.1 - - [22/Apr/2025 13:17:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:18:46,273 - INFO - 127.0.0.1 - - [22/Apr/2025 13:18:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:19:46,274 - INFO - 127.0.0.1 - - [22/Apr/2025 13:19:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:20:46,273 - INFO - 127.0.0.1 - - [22/Apr/2025 13:20:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:21:46,277 - INFO - 127.0.0.1 - - [22/Apr/2025 13:21:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:22:46,278 - INFO - 127.0.0.1 - - [22/Apr/2025 13:22:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:23:46,270 - INFO - 127.0.0.1 - - [22/Apr/2025 13:23:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:24:46,287 - INFO - 127.0.0.1 - - [22/Apr/2025 13:24:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:25:46,280 - INFO - 127.0.0.1 - - [22/Apr/2025 13:25:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:26:46,272 - INFO - 127.0.0.1 - - [22/Apr/2025 13:26:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:27:46,270 - INFO - 127.0.0.1 - - [22/Apr/2025 13:27:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:28:46,277 - INFO - 127.0.0.1 - - [22/Apr/2025 13:28:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:29:46,287 - INFO - 127.0.0.1 - - [22/Apr/2025 13:29:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:30:46,271 - INFO - 127.0.0.1 - - [22/Apr/2025 13:30:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:31:46,265 - INFO - 127.0.0.1 - - [22/Apr/2025 13:31:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:32:46,272 - INFO - 127.0.0.1 - - [22/Apr/2025 13:32:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:33:46,268 - INFO - 127.0.0.1 - - [22/Apr/2025 13:33:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:34:46,271 - INFO - 127.0.0.1 - - [22/Apr/2025 13:34:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:35:46,271 - INFO - 127.0.0.1 - - [22/Apr/2025 13:35:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:36:46,268 - INFO - 127.0.0.1 - - [22/Apr/2025 13:36:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:37:46,277 - INFO - 127.0.0.1 - - [22/Apr/2025 13:37:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:38:46,274 - INFO - 127.0.0.1 - - [22/Apr/2025 13:38:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:39:46,264 - INFO - 127.0.0.1 - - [22/Apr/2025 13:39:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:40:46,276 - INFO - 127.0.0.1 - - [22/Apr/2025 13:40:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:41:46,277 - INFO - 127.0.0.1 - - [22/Apr/2025 13:41:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:42:46,307 - INFO - 127.0.0.1 - - [22/Apr/2025 13:42:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:43:46,272 - INFO - 127.0.0.1 - - [22/Apr/2025 13:43:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:44:46,279 - INFO - 127.0.0.1 - - [22/Apr/2025 13:44:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:45:46,269 - INFO - 127.0.0.1 - - [22/Apr/2025 13:45:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:46:46,281 - INFO - 127.0.0.1 - - [22/Apr/2025 13:46:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:47:46,281 - INFO - 127.0.0.1 - - [22/Apr/2025 13:47:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:48:46,270 - INFO - 127.0.0.1 - - [22/Apr/2025 13:48:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:49:46,281 - INFO - 127.0.0.1 - - [22/Apr/2025 13:49:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:50:46,283 - INFO - 127.0.0.1 - - [22/Apr/2025 13:50:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:51:46,275 - INFO - 127.0.0.1 - - [22/Apr/2025 13:51:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:52:46,273 - INFO - 127.0.0.1 - - [22/Apr/2025 13:52:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:53:46,281 - INFO - 127.0.0.1 - - [22/Apr/2025 13:53:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:54:46,279 - INFO - 127.0.0.1 - - [22/Apr/2025 13:54:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:55:46,276 - INFO - 127.0.0.1 - - [22/Apr/2025 13:55:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:56:46,279 - INFO - 127.0.0.1 - - [22/Apr/2025 13:56:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:57:46,273 - INFO - 127.0.0.1 - - [22/Apr/2025 13:57:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:58:46,277 - INFO - 127.0.0.1 - - [22/Apr/2025 13:58:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 13:59:46,269 - INFO - 127.0.0.1 - - [22/Apr/2025 13:59:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:00:46,285 - INFO - 127.0.0.1 - - [22/Apr/2025 14:00:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:01:46,272 - INFO - 127.0.0.1 - - [22/Apr/2025 14:01:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:02:46,276 - INFO - 127.0.0.1 - - [22/Apr/2025 14:02:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:03:46,276 - INFO - 127.0.0.1 - - [22/Apr/2025 14:03:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:04:46,278 - INFO - 127.0.0.1 - - [22/Apr/2025 14:04:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:05:46,269 - INFO - 127.0.0.1 - - [22/Apr/2025 14:05:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:06:46,281 - INFO - 127.0.0.1 - - [22/Apr/2025 14:06:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:07:46,267 - INFO - 127.0.0.1 - - [22/Apr/2025 14:07:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:08:46,280 - INFO - 127.0.0.1 - - [22/Apr/2025 14:08:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:09:46,277 - INFO - 127.0.0.1 - - [22/Apr/2025 14:09:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:10:46,268 - INFO - 127.0.0.1 - - [22/Apr/2025 14:10:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:11:46,279 - INFO - 127.0.0.1 - - [22/Apr/2025 14:11:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:12:46,303 - INFO - 127.0.0.1 - - [22/Apr/2025 14:12:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:13:46,284 - INFO - 127.0.0.1 - - [22/Apr/2025 14:13:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:14:46,281 - INFO - 127.0.0.1 - - [22/Apr/2025 14:14:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:15:46,280 - INFO - 127.0.0.1 - - [22/Apr/2025 14:15:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:16:46,280 - INFO - 127.0.0.1 - - [22/Apr/2025 14:16:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:17:46,270 - INFO - 127.0.0.1 - - [22/Apr/2025 14:17:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:18:46,266 - INFO - 127.0.0.1 - - [22/Apr/2025 14:18:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:19:46,272 - INFO - 127.0.0.1 - - [22/Apr/2025 14:19:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:20:46,274 - INFO - 127.0.0.1 - - [22/Apr/2025 14:20:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:21:46,276 - INFO - 127.0.0.1 - - [22/Apr/2025 14:21:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:22:46,280 - INFO - 127.0.0.1 - - [22/Apr/2025 14:22:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:23:46,266 - INFO - 127.0.0.1 - - [22/Apr/2025 14:23:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:24:46,271 - INFO - 127.0.0.1 - - [22/Apr/2025 14:24:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:25:46,277 - INFO - 127.0.0.1 - - [22/Apr/2025 14:25:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:26:46,275 - INFO - 127.0.0.1 - - [22/Apr/2025 14:26:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:27:46,281 - INFO - 127.0.0.1 - - [22/Apr/2025 14:27:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:28:46,273 - INFO - 127.0.0.1 - - [22/Apr/2025 14:28:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 14:29:46,276 - INFO - 127.0.0.1 - - [22/Apr/2025 14:29:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 16:53:47,321 - INFO - 127.0.0.1 - - [22/Apr/2025 16:53:47] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 16:54:44,095 - INFO - 127.0.0.1 - - [22/Apr/2025 16:54:44] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 16:55:45,094 - INFO - 127.0.0.1 - - [22/Apr/2025 16:55:45] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 16:56:46,091 - INFO - 127.0.0.1 - - [22/Apr/2025 16:56:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 16:57:46,102 - INFO - 127.0.0.1 - - [22/Apr/2025 16:57:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 16:58:46,087 - INFO - 127.0.0.1 - - [22/Apr/2025 16:58:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 16:59:46,091 - INFO - 127.0.0.1 - - [22/Apr/2025 16:59:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:00:46,095 - INFO - 127.0.0.1 - - [22/Apr/2025 17:00:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:01:46,102 - INFO - 127.0.0.1 - - [22/Apr/2025 17:01:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:02:46,094 - INFO - 127.0.0.1 - - [22/Apr/2025 17:02:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:03:46,092 - INFO - 127.0.0.1 - - [22/Apr/2025 17:03:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:04:46,096 - INFO - 127.0.0.1 - - [22/Apr/2025 17:04:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:05:46,096 - INFO - 127.0.0.1 - - [22/Apr/2025 17:05:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:06:46,104 - INFO - 127.0.0.1 - - [22/Apr/2025 17:06:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:07:46,112 - INFO - 127.0.0.1 - - [22/Apr/2025 17:07:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:08:46,090 - INFO - 127.0.0.1 - - [22/Apr/2025 17:08:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:09:46,097 - INFO - 127.0.0.1 - - [22/Apr/2025 17:09:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:10:46,099 - INFO - 127.0.0.1 - - [22/Apr/2025 17:10:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:11:46,098 - INFO - 127.0.0.1 - - [22/Apr/2025 17:11:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:12:46,096 - INFO - 127.0.0.1 - - [22/Apr/2025 17:12:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:13:46,092 - INFO - 127.0.0.1 - - [22/Apr/2025 17:13:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:14:46,095 - INFO - 127.0.0.1 - - [22/Apr/2025 17:14:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:15:46,090 - INFO - 127.0.0.1 - - [22/Apr/2025 17:15:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:16:46,089 - INFO - 127.0.0.1 - - [22/Apr/2025 17:16:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:17:46,101 - INFO - 127.0.0.1 - - [22/Apr/2025 17:17:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:18:46,102 - INFO - 127.0.0.1 - - [22/Apr/2025 17:18:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:19:46,094 - INFO - 127.0.0.1 - - [22/Apr/2025 17:19:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:20:46,098 - INFO - 127.0.0.1 - - [22/Apr/2025 17:20:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:21:46,093 - INFO - 127.0.0.1 - - [22/Apr/2025 17:21:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:22:46,092 - INFO - 127.0.0.1 - - [22/Apr/2025 17:22:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:23:46,095 - INFO - 127.0.0.1 - - [22/Apr/2025 17:23:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:24:46,097 - INFO - 127.0.0.1 - - [22/Apr/2025 17:24:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:25:46,095 - INFO - 127.0.0.1 - - [22/Apr/2025 17:25:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:26:46,091 - INFO - 127.0.0.1 - - [22/Apr/2025 17:26:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:27:46,088 - INFO - 127.0.0.1 - - [22/Apr/2025 17:27:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:28:46,100 - INFO - 127.0.0.1 - - [22/Apr/2025 17:28:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:29:46,098 - INFO - 127.0.0.1 - - [22/Apr/2025 17:29:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:30:36,480 - INFO - 127.0.0.1 - - [22/Apr/2025 17:30:36] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-22 17:30:46,091 - INFO - 127.0.0.1 - - [22/Apr/2025 17:30:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:00:40,482 - INFO - Database initialized successfully
+2025-04-25 20:00:40,523 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.217:5000
+2025-04-25 20:00:40,523 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-25 20:00:40,529 - INFO -  * Restarting with stat
+2025-04-25 20:00:40,847 - INFO - Database initialized successfully
+2025-04-25 20:00:40,887 - WARNING -  * Debugger is active!
+2025-04-25 20:00:40,898 - INFO -  * Debugger PIN: 681-069-740
+2025-04-25 20:01:11,218 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:11] "GET / HTTP/1.1" 200 -
+2025-04-25 20:01:11,949 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:11] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:01:12,275 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:12] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:01:12,428 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-25 20:01:21,014 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:21] "GET /live HTTP/1.1" 200 -
+2025-04-25 20:01:21,087 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:21] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:01:21,140 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:21] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:21,171 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:21] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-25 20:01:23,084 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:23] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:23,930 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:23] "GET /admin HTTP/1.1" 200 -
+2025-04-25 20:01:30,466 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:30] "GET /live HTTP/1.1" 200 -
+2025-04-25 20:01:30,493 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:30] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:01:30,494 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:30] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:30,495 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:30] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-25 20:01:32,494 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:32] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:34,512 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:34] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:35,501 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:35] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:01:36,499 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:36] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:38,504 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:38] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:40,514 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:40] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:01:40,524 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:40] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:40,531 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:40] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-25 20:01:42,498 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:42] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:44,521 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:44] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:45,504 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:45] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:01:46,529 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:46] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:48,511 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:48] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:50,524 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:50] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:01:50,539 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:50] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:50,564 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:50] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-25 20:01:52,500 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:52] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:54,519 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:54] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:55,524 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:55] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:01:56,503 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:56] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:01:58,506 - INFO - 127.0.0.1 - - [25/Apr/2025 20:01:58] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:00,569 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:00] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:02:00,583 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:00] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:00,613 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:00] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-25 20:02:02,511 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:02] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:04,505 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:04] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:05,507 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:05] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:02:06,519 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:06] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:08,502 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:08] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:10,811 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:10] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:02:10,813 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:10] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:10,816 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:10] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-25 20:02:13,915 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:13] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:14,807 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:14] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:15,791 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:15] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 20:02:16,495 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:16] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:18,514 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:18] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 20:02:19,170 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:19] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:02:42,804 - INFO - 127.0.0.1 - - [25/Apr/2025 20:02:42] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:03:12,948 - INFO - 127.0.0.1 - - [25/Apr/2025 20:03:12] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:03:26,163 - INFO - Database initialized successfully
+2025-04-25 20:03:26,199 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.217:5000
+2025-04-25 20:03:26,200 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-25 20:03:26,204 - INFO -  * Restarting with stat
+2025-04-25 20:03:26,509 - INFO - Database initialized successfully
+2025-04-25 20:03:26,520 - WARNING -  * Debugger is active!
+2025-04-25 20:03:26,527 - INFO -  * Debugger PIN: 681-069-740
+2025-04-25 20:03:42,810 - INFO - 127.0.0.1 - - [25/Apr/2025 20:03:42] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:04:12,807 - INFO - 127.0.0.1 - - [25/Apr/2025 20:04:12] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:04:46,154 - INFO - 127.0.0.1 - - [25/Apr/2025 20:04:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:05:12,804 - INFO - 127.0.0.1 - - [25/Apr/2025 20:05:12] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:05:42,797 - INFO - 127.0.0.1 - - [25/Apr/2025 20:05:42] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:05:43,132 - INFO - 127.0.0.1 - - [25/Apr/2025 20:05:43] "[33mGET /api/mark_attendance HTTP/1.1[0m" 404 -
+2025-04-25 20:05:43,308 - INFO - 127.0.0.1 - - [25/Apr/2025 20:05:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-25 20:05:59,718 - INFO - 127.0.0.1 - - [25/Apr/2025 20:05:59] "[33mGET /api/mark_attendance HTTP/1.1[0m" 404 -
+2025-04-25 20:06:44,923 - INFO - 127.0.0.1 - - [25/Apr/2025 20:06:44] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:07:45,809 - INFO - 127.0.0.1 - - [25/Apr/2025 20:07:45] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:08:54,910 - INFO - 127.0.0.1 - - [25/Apr/2025 20:08:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:09:12,806 - INFO - 127.0.0.1 - - [25/Apr/2025 20:09:12] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:09:48,484 - INFO - 127.0.0.1 - - [25/Apr/2025 20:09:48] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:10:48,843 - INFO - 127.0.0.1 - - [25/Apr/2025 20:10:48] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:11:49,810 - INFO - 127.0.0.1 - - [25/Apr/2025 20:11:49] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:12:31,979 - INFO - 127.0.0.1 - - [25/Apr/2025 20:12:31] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:12:44,069 - INFO - 127.0.0.1 - - [25/Apr/2025 20:12:44] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:13:21,036 - INFO - 127.0.0.1 - - [25/Apr/2025 20:13:21] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:14:01,023 - INFO - 127.0.0.1 - - [25/Apr/2025 20:14:01] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:15:03,579 - INFO - 127.0.0.1 - - [25/Apr/2025 20:15:03] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:16:05,769 - INFO - 127.0.0.1 - - [25/Apr/2025 20:16:05] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:16:56,006 - INFO - 127.0.0.1 - - [25/Apr/2025 20:16:56] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:17:59,926 - INFO - 127.0.0.1 - - [25/Apr/2025 20:17:59] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:19:02,463 - INFO - 127.0.0.1 - - [25/Apr/2025 20:19:02] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:19:59,264 - INFO - 127.0.0.1 - - [25/Apr/2025 20:19:59] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:21:09,809 - INFO - 127.0.0.1 - - [25/Apr/2025 20:21:09] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:21:53,804 - INFO - 127.0.0.1 - - [25/Apr/2025 20:21:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:22:53,843 - INFO - 127.0.0.1 - - [25/Apr/2025 20:22:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:23:54,736 - INFO - 127.0.0.1 - - [25/Apr/2025 20:23:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:25:04,653 - INFO - 127.0.0.1 - - [25/Apr/2025 20:25:04] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:26:03,239 - INFO - 127.0.0.1 - - [25/Apr/2025 20:26:03] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:26:57,217 - INFO - 127.0.0.1 - - [25/Apr/2025 20:26:57] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:27:53,809 - INFO - 127.0.0.1 - - [25/Apr/2025 20:27:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:28:54,612 - INFO - 127.0.0.1 - - [25/Apr/2025 20:28:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:29:53,804 - INFO - 127.0.0.1 - - [25/Apr/2025 20:29:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:30:53,877 - INFO - 127.0.0.1 - - [25/Apr/2025 20:30:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:31:54,203 - INFO - 127.0.0.1 - - [25/Apr/2025 20:31:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:32:53,811 - INFO - 127.0.0.1 - - [25/Apr/2025 20:32:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:33:53,812 - INFO - 127.0.0.1 - - [25/Apr/2025 20:33:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:34:53,806 - INFO - 127.0.0.1 - - [25/Apr/2025 20:34:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:35:53,812 - INFO - 127.0.0.1 - - [25/Apr/2025 20:35:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:36:55,150 - INFO - 127.0.0.1 - - [25/Apr/2025 20:36:55] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:37:53,977 - INFO - 127.0.0.1 - - [25/Apr/2025 20:37:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:38:53,801 - INFO - 127.0.0.1 - - [25/Apr/2025 20:38:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:39:53,820 - INFO - 127.0.0.1 - - [25/Apr/2025 20:39:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:40:55,481 - INFO - 127.0.0.1 - - [25/Apr/2025 20:40:55] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:41:53,839 - INFO - 127.0.0.1 - - [25/Apr/2025 20:41:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:42:53,798 - INFO - 127.0.0.1 - - [25/Apr/2025 20:42:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:43:53,814 - INFO - 127.0.0.1 - - [25/Apr/2025 20:43:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:44:54,230 - INFO - 127.0.0.1 - - [25/Apr/2025 20:44:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:45:53,797 - INFO - 127.0.0.1 - - [25/Apr/2025 20:45:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:46:53,802 - INFO - 127.0.0.1 - - [25/Apr/2025 20:46:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:47:54,217 - INFO - 127.0.0.1 - - [25/Apr/2025 20:47:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:48:54,304 - INFO - 127.0.0.1 - - [25/Apr/2025 20:48:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:49:53,830 - INFO - 127.0.0.1 - - [25/Apr/2025 20:49:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:50:54,501 - INFO - 127.0.0.1 - - [25/Apr/2025 20:50:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:51:53,818 - INFO - 127.0.0.1 - - [25/Apr/2025 20:51:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:52:53,809 - INFO - 127.0.0.1 - - [25/Apr/2025 20:52:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:53:53,810 - INFO - 127.0.0.1 - - [25/Apr/2025 20:53:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:54:53,806 - INFO - 127.0.0.1 - - [25/Apr/2025 20:54:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:55:53,808 - INFO - 127.0.0.1 - - [25/Apr/2025 20:55:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:56:53,808 - INFO - 127.0.0.1 - - [25/Apr/2025 20:56:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:57:53,810 - INFO - 127.0.0.1 - - [25/Apr/2025 20:57:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:58:53,801 - INFO - 127.0.0.1 - - [25/Apr/2025 20:58:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 20:59:53,808 - INFO - 127.0.0.1 - - [25/Apr/2025 20:59:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:00:53,803 - INFO - 127.0.0.1 - - [25/Apr/2025 21:00:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:01:53,802 - INFO - 127.0.0.1 - - [25/Apr/2025 21:01:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:02:53,912 - INFO - 127.0.0.1 - - [25/Apr/2025 21:02:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:03:21,971 - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:21] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:03:30,256 - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:30] "GET /admin HTTP/1.1" 200 -
+2025-04-25 21:03:49,455 - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:49] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:03:51,013 - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:51] "GET /live HTTP/1.1" 200 -
+2025-04-25 21:03:51,480 - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:51] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 21:03:51,481 - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:51] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 21:03:52,216 - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:52] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-25 21:03:59,295 - INFO - 127.0.0.1 - - [25/Apr/2025 21:03:59] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 21:04:01,222 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:01] "GET /register HTTP/1.1" 200 -
+2025-04-25 21:04:07,915 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:07] "GET /admin HTTP/1.1" 200 -
+2025-04-25 21:04:13,686 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:13] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:04:17,694 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:17] "GET /register HTTP/1.1" 200 -
+2025-04-25 21:04:18,889 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:18] "GET /admin HTTP/1.1" 200 -
+2025-04-25 21:04:20,226 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:20] "GET /live HTTP/1.1" 200 -
+2025-04-25 21:04:20,269 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:20] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+2025-04-25 21:04:20,342 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:20] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 21:04:20,442 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:20] "[33mGET /api/debug_info HTTP/1.1[0m" 404 -
+2025-04-25 21:04:22,269 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:22] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 21:04:24,288 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:24] "[31m[1mGET /api/get_recent_scans HTTP/1.1[0m" 401 -
+2025-04-25 21:04:41,953 - INFO - 127.0.0.1 - - [25/Apr/2025 21:04:41] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:05:12,726 - INFO - 127.0.0.1 - - [25/Apr/2025 21:05:12] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:05:42,386 - INFO - 127.0.0.1 - - [25/Apr/2025 21:05:42] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:06:23,049 - INFO - 127.0.0.1 - - [25/Apr/2025 21:06:23] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:06:41,953 - INFO - 127.0.0.1 - - [25/Apr/2025 21:06:41] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:07:12,810 - INFO - 127.0.0.1 - - [25/Apr/2025 21:07:12] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:07:46,657 - INFO - 127.0.0.1 - - [25/Apr/2025 21:07:46] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:08:38,003 - INFO - 127.0.0.1 - - [25/Apr/2025 21:08:38] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:08:45,440 - INFO - 127.0.0.1 - - [25/Apr/2025 21:08:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-25 21:09:13,737 - INFO - 127.0.0.1 - - [25/Apr/2025 21:09:13] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:09:42,672 - INFO - 127.0.0.1 - - [25/Apr/2025 21:09:42] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:10:08,855 - INFO - 127.0.0.1 - - [25/Apr/2025 21:10:08] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:10:38,806 - INFO - 127.0.0.1 - - [25/Apr/2025 21:10:38] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:11:08,808 - INFO - 127.0.0.1 - - [25/Apr/2025 21:11:08] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:11:54,534 - INFO - 127.0.0.1 - - [25/Apr/2025 21:11:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:12:53,806 - INFO - 127.0.0.1 - - [25/Apr/2025 21:12:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:13:54,517 - INFO - 127.0.0.1 - - [25/Apr/2025 21:13:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:14:55,244 - INFO - 127.0.0.1 - - [25/Apr/2025 21:14:55] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:15:53,800 - INFO - 127.0.0.1 - - [25/Apr/2025 21:15:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:16:53,811 - INFO - 127.0.0.1 - - [25/Apr/2025 21:16:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:17:53,802 - INFO - 127.0.0.1 - - [25/Apr/2025 21:17:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:18:54,150 - INFO - 127.0.0.1 - - [25/Apr/2025 21:18:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:19:54,808 - INFO - 127.0.0.1 - - [25/Apr/2025 21:19:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:20:54,163 - INFO - 127.0.0.1 - - [25/Apr/2025 21:20:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:21:53,811 - INFO - 127.0.0.1 - - [25/Apr/2025 21:21:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:22:53,800 - INFO - 127.0.0.1 - - [25/Apr/2025 21:22:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:23:55,902 - INFO - 127.0.0.1 - - [25/Apr/2025 21:23:55] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:24:53,802 - INFO - 127.0.0.1 - - [25/Apr/2025 21:24:53] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:25:54,144 - INFO - 127.0.0.1 - - [25/Apr/2025 21:25:54] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:26:09,796 - INFO - 127.0.0.1 - - [25/Apr/2025 21:26:09] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
+2025-04-25 21:26:11,030 - INFO - 127.0.0.1 - - [25/Apr/2025 21:26:11] "GET /admin HTTP/1.1" 200 -
+2025-04-25 22:07:42,181 - INFO - 127.0.0.1 - - [25/Apr/2025 22:07:42] "[31m[1mGET /api/get_stats HTTP/1.1[0m" 401 -
